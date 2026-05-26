@@ -1,0 +1,14 @@
+# Google Earth Engine Python API (用于调用 CCDC 模型及卫星影像处理)
+earthengine-api>=0.1.370
+
+# 科学计算与数组处理基础库
+numpy>=1.21.0
+
+# 科学计算高级库 (用于 scipy.ndimage 通用滤波和 scipy.optimize 逻辑斯蒂曲线拟合)
+scipy>=1.7.0
+
+# 图像处理库 (提供高级形态学运算 skimage.morphology 用于 GAM 水文连通性生长)
+scikit-image>=0.18.0
+
+# 地理空间栅格数据读写库 (实际处理研究流向、坡度、影像输出的 GeoTIFF 时必用)
+rasterio>=1.2.10
